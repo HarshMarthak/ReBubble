@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <style>
+        #preview {
+            width: 100%;
+            height: auto;
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            display: inline-block;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>QR Code Scanner</h1>
+    <video id="preview"></video>
+    <div id="boxes">
+        <!-- Create 10 boxes with unique IDs -->
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+    </div>
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
